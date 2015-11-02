@@ -1,0 +1,27 @@
+h1 {
+font-family: 'Lobster', cursive;
+text-align: center;
+font-size: 4em;
+}
+
+table{
+margin:auto;
+border: 0.4em solid grey;
+border-radius: 3em;
+padding: 1em;
+margin-bottom: 1em;
+background-color: rgba(206,206,206,0.6);
+}
+body {
+  background-image:url(photo1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: #CECECE;
+
+}
+th {
+  font-family: 'Lobster', cursive;
+  font-size: 1.5em;
+
+}
