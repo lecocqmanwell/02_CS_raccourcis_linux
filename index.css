@@ -109,7 +109,7 @@ dt{
 
     header{
     font-family: "Lobster", cursive;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
 
     }
     h1 {
@@ -126,21 +126,37 @@ dt{
     }
     .bouton {
       text-decoration: none;
+
     }
-    div {background-color: grey;
+    div {
+      background-color: grey;
       min-width: 80%;
       min-height: 90%;
-      margin: 5% 0% 5% 0%;
+      margin: 3% 0% 3% 0%;
       padding-top: 20%;
       padding-bottom: 20%;
     }
     code {
       background-color: white;
       border-radius: 0.5em;
-      font-size: 6em;
-      
-    }
+      font-size: 4.5em;
 
+    }
+.boutsite {
+  margin-left: 5%;
+
+}
+dt {
+font-size: 2em;
+margin-left: 15%;
+margin-top: 5%;
+
+
+}
+.hidemobile, .mobilvisible{
+margin-left: 85%; 
+}
+}
 
 
 
