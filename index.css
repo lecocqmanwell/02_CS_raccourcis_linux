@@ -1,27 +1,44 @@
+body {
+  background-color: #CECECE;
+font-size: 62.5%;
+margin: 2%;
+}
+
+
+
+
+
+/*-----------------------------------mobile-------------------------------------
+------------------------------------------------------------------------------*/
+@media screen and (max-width:320px){
+
+
+
+header{
+
+font-family: "Lobster", cursive;
+padding-top: 25%;
+padding-bottom: 35%;
+}
+
 h1 {
-font-family: 'Lobster', cursive;
-text-align: center;
+  padding-bottom: 35%;
+  text-align: center;
 font-size: 4em;
 }
 
-table{
-margin:auto;
-border: 0.4em solid grey;
-border-radius: 3em;
-padding: 1em;
-margin-bottom: 1em;
-background-color: rgba(206,206,206,0.6);
-}
-body {
-  background-image:url(photo1.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-color: #CECECE;
+header input{
+width: 48%;
+text-decoration: none;
 
 }
-th {
-  font-family: 'Lobster', cursive;
-  font-size: 1.5em;
+.bouton {
+  text-decoration: none;
+}
+
+#lastbutton {
+padding-left: 25%;
+text-decoration: none;
+}
 
 }
