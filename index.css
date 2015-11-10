@@ -1,27 +1,159 @@
+body {
+  background-color: #CECECE;
+font-size: 62.5%;
+margin: 2%;
+}
+
+
+
+
+
+/*-----------------------------------mobile-------------------------------------
+------------------------------------------------------------------------------*/
+@media screen and (max-width:320px){
+
+
+
+header{
+
+font-family: "Lobster", cursive;
+padding-top: 25%;
+padding-bottom: 28%;
+}
+
 h1 {
-font-family: 'Lobster', cursive;
-text-align: center;
+  padding-bottom: 35%;
+  text-align: center;
 font-size: 4em;
 }
 
-table{
-margin:auto;
-border: 0.4em solid grey;
-border-radius: 3em;
-padding: 1em;
-margin-bottom: 1em;
-background-color: rgba(206,206,206,0.6);
-}
-body {
-  background-image:url(photo1.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-color: #CECECE;
+header input{
+width: 48%;
+text-decoration: none;
 
 }
-th {
-  font-family: 'Lobster', cursive;
-  font-size: 1.5em;
+.bouton {
+  text-decoration: none;
+}
 
+#lastbutton {
+padding-left: 25%;
+text-decoration: none;
+}
+article{
+   font-size: 1.5em;
+
+}
+code {
+  background-color: grey;
+  border-radius: 0.4em;
+
+}
+.hidemobile {
+  display: none;
+}
+.mobilvisible {
+margin-left: 38%;
+text-decoration: none;
+}
+dt{
+  margin-left: 15%;
+}
+}
+/*---------------------------------------tablette-------------------------------
+------------------------------------------------------------------------------*/
+@media screen and (min-width:321px) and (max-width:800px) {
+
+  header{
+  font-family: "Lobster", cursive;
+  padding-bottom: 15%;
+  }
+  h1 {
+    padding: 10%;
+    text-align: center;
+  font-size: 4em;
+  }
+  header input{
+  width: 49%;
+  text-decoration: none;
+  font-size: 2.5em;
+  }
+  .bouton {
+    text-decoration: none;
+  }
+  #lastbutton {
+  padding-left: 25%;
+  text-decoration: none;
+  }
+  .hidemobile {
+    display: none;
+  }
+  .mobilvisible {
+  margin-left: 38%;
+  text-decoration: none;
+  }
+  dt{
+    margin-left: 10%;}
+  article {
+       font-size: 2em;
+    }
+    code {
+      background-color: grey;
+      border-radius: 0.4em;
+}
+}
+/*---------------------------------ordi-----------------------------------------
+------------------------------------------------------------------------------*/
+@media screen and (min-width:801px){
+
+
+    header{
+    font-family: "Lobster", cursive;
+    padding-bottom: 8%;
+
+    }
+    h1 {
+      padding: 18%;
+      padding-bottom: 5%;
+      text-align: center;
+    font-size: 6em;
+    }
+
+    header input{
+  display: inline-block;
+    text-decoration: none;
+    font-size: 2em;
+    }
+    .bouton {
+      text-decoration: none;
+
+    }
+    div {
+      background-color: grey;
+      min-width: 80%;
+      min-height: 90%;
+      margin: 3% 0% 3% 0%;
+      padding-top: 20%;
+      padding-bottom: 20%;
+    }
+    code {
+      background-color: white;
+      border-radius: 0.5em;
+      font-size: 4.5em;
+
+    }
+.boutsite {
+  margin-left: 5%;
+
+}
+dt {
+font-size: 2em;
+margin-left: 15%;
+margin-top: 5%;
+
+
+}
+.hidemobile, .mobilvisible{
+margin-left: 85%;
+}
 }

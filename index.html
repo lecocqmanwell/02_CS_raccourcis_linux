@@ -1,88 +1,190 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link type="text/css" rel="stylesheet" href="index.css"/>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-    <title>Raccourcis Linux</title>
 
-  </head>
-  <body>
-    <h1>Raccourcis Linux</h1>
-      <table>
-        <thead>
-          <th colspan="2"> Déplacement sur le bureau</th>
-        </thead>
-        <tbody>
-          <tr>
-            <td><em>touche clavier</em></td>
-            <td><em>description</em></td>
-          </tr>
-          <tr>
-            <td>alt+F2</td>
-            <td>Faire apparaître la fenêtre des commande</td>
-          </tr>
-          <tr>
-            <td>alt+F4</td>
-            <td>Fermer la fenêtre active</td>
-          </tr>
-          <tr>
-            <td>alt+ctrl+flèches</td>
-            <td>Basculer de bureau</td>
-          </tr>
-          <tr>
-            <td>alt+tab</td>
-            <td>Changer rapidement de fenêtre</td>
-          </tr>
-          <tr>
-            <td>alt+ctrl+l</td>
-            <td>Verrouiller la bécane</td>
-          </tr>
-          <tr>
-            <td>super+s</td>
-            <td>Activer le sélecteur d'espace de travail, zoom arrière sur tous les espaces de travail</td>
-          </tr>
-          <tr>
-            <td>super+w</td>
-            <td>Activer le mode « Expo », affiche toutes les fenêtres de l'espace de travail actuel</td>
-          </tr>
-          <tr>
-            <td>ctrl+alt+suppr</td>
-            <td>Se déconnecter</td>
-          </tr>
-            <th colspan="2">Raccourcis courant de modification</th>
-          <tr>
-          <tr>
-            <td><em>touche clavier</em></td>
-            <td><em>description</em></td>
-          </tr>
-            <td>ctrl+a</td>
-            <td>Tout selectionner</td>
-          </tr>
-          <tr>
-            <td>ctrl+x</td>
-            <td>Couper</td>
-          </tr>
-          <tr>
-            <td>ctrl+c</td>
-            <td>Copier</td>
-          </tr>
-          <tr>
-            <td>ctrl+v</td>
-            <td>Coller</td>
-          </tr>
-          <tr>
-            <td>ctrl+z</td>
-            <td>Annuler la dernière action</td>
-          </tr>
-        </tbody>
-      </table>
+<head>
+  <link type="text/css" rel="stylesheet" href="index.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <title>Raccourcis Linux</title>
+
+</head>
+
+<body>
+  <header>
+
+    <h1 id="accueil">Raccourcis Linux</h1>
+
+    <a href="#altf2" class="bouton">
+      <input type="button" value="alt+F2">
+    </a>
+    <a href="#altf4" class="bouton">
+      <input type="button" value="alt+F4">
+    </a>
+    <a href="#altctrlf" class="bouton">
+      <input type="button" value="alt+ctrl+flèches">
+    </a>
+    <a href="#alttab" class="bouton">
+      <input type="button" value="alt+tab">
+    </a>
+    <a href="#altctrll" class="bouton">
+      <input type="button" value="alt+ctrl+l">
+    </a>
+    <a href="#supers" class="bouton">
+      <input type="button" value="super+s">
+    </a>
+    <a href="#ctrlaltsupp" class="bouton">
+      <input type="button" value="ctrl+alt+suppr">
+    </a>
+
+    <a href="#superw" class="bouton">
+      <input type="button" value="super+w">
+    </a>
+    <a href="#ctrla" class="bouton">
+      <input type="button" value="ctrl+a">
+    </a>
+    <a href="#ctrlx" class="bouton">
+      <input type="button" value="ctrl+x">
+    </a>
+    <a href="#ctrlc" class="bouton">
+      <input type="button" value="ctrl+c">
+    </a>
+    <a href="#ctrlv" class="bouton">
+      <input type="button" value="ctrl+v">
+    </a>
+    <a href="#ctrlz" id="lastbutton">
+      <input type="button" value="ctrl+z">
+    </a>
+
+  </header>
+
+  <article class="articll">
+<div class="altf2">
+  <code id="altf2" class="boutsite">alt+F2</code>
+  <dt>Faire apparaître la fenêtre des commande</dt>
+
+  <a href="#accueil" class="hidemobile">
+    <input type="button" value="Accueil">
+  </a>
+</div>
+
+    <div class="">
+      <code id="altf4" class="boutsite">alt+F4</code>
+      <dt>Fermer la fenêtre active</dt>
+
+      <a href="#accueil" class="hidemobile">
+        <input type="button" value="Accueil">
+      </a>
+    </div>
+
+<div class="">
+  <code id="altctrlf" class="boutsite">alt+ctrl+flèches</code>
+  <dt>Basculer de bureau</dt>
+
+  <a href="#accueil" class="hidemobile">
+    <input type="button" value="Accueil">
+  </a>
+</div>
+
+    <div class="">
+      <code id="alttab" class="boutsite">alt+tab</code>
+      <dt>Changer rapidement de fenêtre</dt>
+
+      <a href="#accueil" class="hidemobile">
+        <input type="button" value="Accueil">
+      </a>
+    </div>
+
+<div class="">
+  <code id="altctrll" class="boutsite" >alt+ctrl+l</code>
+  <dt>Verrouiller la bécane</dt>
+
+  <a href="#accueil" class="hidemobile">
+    <input type="button" value="Accueil">
+  </a>
+</div>
+
+    <div class="">
+      <code id="supers" class="boutsite">super+s</code>
+      <dt>Activer le sélecteur d'espace de travail, zoom arrière sur tous les espaces de travail</dt>
+
+      <a href="#accueil" >
+        <input type="button" value="Accueil" class="mobilvisible">
+      </a>
+
+    </div>
+
+    <div class="">
+      <code id="superw" class="boutsite">super+w</code>
+      <dt>Activer le mode « Expo », affiche toutes les fenêtres de l'espace de travail actuel
+      </dt>
+
+      <a href="#accueil" class="hidemobile">
+        <input type="button" value="Accueil">
+      </a>
+
+    </div>
+    <div class="">
+      <code id="ctrlaltsupp" class="boutsite">ctrl+alt+suppr</code>
+      <dt>Se déconnecter</dt>
 
 
+      <a href="#accueil" class="hidemobile">
+        <input type="button" value="Accueil">
+      </a>
+
+    </div>
+    <div class="">
+      <code id="ctrla" class="boutsite">ctrl+a</code>
+      <dt>Tout selectionner</dt>
 
 
+      <a href="#accueil" class="hidemobile">
+        <input type="button" value="Accueil">
+      </a>
+
+    </div>
+    <div class="">
+      <code id="ctrlx" class="boutsite">ctrl+x</code>
+      <dt>Couper</dt>
 
 
-  </body>
+      <a href="#accueil" class="hidemobile">
+        <input type="button" value="Accueil">
+      </a>
+
+    </div>
+    <div class="">
+      <code id="ctrlc" class="boutsite">ctrl+c</code>
+      <dt>Copier</dt>
+
+      <a href="#accueil" class="hidemobile">
+        <input type="button" value="Accueil">
+      </a>
+
+    </div>
+    <div class="" >
+      <code id="ctrlv" class="boutsite">ctrl+v</code>
+      <dt>Coller</dt>
+
+      <a href="#accueil" class="hidemobile">
+        <input type="button" value="Accueil">
+      </a>
+    </div>
+
+    <div class="">
+      <code id="ctrlz" class="boutsite">ctrl+z</code>
+      <dt> Annuler la dernière action</dt>
+
+
+      <a href="#accueil" class="mobilvisible">
+        <input type="button" value="Accueil">
+      </a>
+    </div>
+
+
+  </article>
+
+</body>
 
 </html>
